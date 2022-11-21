@@ -108,3 +108,14 @@
 //     return s.split(' ').sort((a,b) => a.length-b.length).pop()
 // }
 // console.log(stringOfWords(s))
+//******************************************** */
+let infected = '*h*s *s v*ry *tr*ng*'
+let discovered = 'tiiesae'
+
+// function uncensor(infected, discovered){
+//     const arr = [...discovered]
+
+//     return [...infected].map(el => el ==='*'? arr.shift() : el).join('')
+// }
+
+// console.log(encensor(infected, discovered))
