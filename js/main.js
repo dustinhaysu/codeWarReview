@@ -101,3 +101,10 @@
 //     return morph
 // }
 // console.log(mutateMyStrings(stringOne, stringTwo))
+//************************************************** */
+// let s = 'red blue gold'
+
+// function stringOfWords(s){
+//     return s.split(' ').sort((a,b) => a.length-b.length).pop()
+// }
+// console.log(stringOfWords(s))
