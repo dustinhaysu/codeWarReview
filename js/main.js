@@ -10,7 +10,7 @@
 //     }
 // }
 // console.log(findOddInt(arr))
-
+//********** */
 // obj = {
 //     first : '1',
 //     second : '2',
@@ -18,7 +18,7 @@
 //     fourth : ['anytime', 2, 3, 4],
 //     fifth : null
 // }
-
+//****** */
 // function strCount(obj) {
 //     // count all string values inside of an object.
 //     let value = 0
@@ -34,7 +34,7 @@
 // }
 
 // console.log(strCount(obj))
-
+//***************** */
 // for(let i = 0; i <= 100; i++) {
 //     if (i % 3 === 0 && i % 5 === 0){
 //         console.log(i, 'fizzbuzz')
@@ -46,3 +46,13 @@
 //         console.log(i, "buzz")
 //     }
 // }
+//*************** */
+
+// product 2 'strings' 
+
+let arr = ['7','10']
+function arrMultiply(arr){
+    return `${arr[0] * arr[1]}`
+}
+
+console.log(arrMultiply(arr))
