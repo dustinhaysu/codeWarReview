@@ -50,9 +50,36 @@
 
 // product 2 'strings' 
 
-let arr = ['7','10']
+// let arr = ['7','10']
+// function arrMultiply(arr){
+//     return `${arr[0] * arr[1]}`
+// }
+
+// console.log(arrMultiply(arr))
+
+// *********************************
+
+// let a = 'red white blue'
+// let s = 'red blue gold'
+
+// function stringOfWords(s){
+//     return s.split(' ').sort((a,b)=> a.length - b.length).pop()
+// }
+
+// console.log(stringOfWords(s))
+
+// function stringOfWords(s){
+//     return s.split(' ').sort((a,b)=> a.length - b.length).reverse()[0]
+// }
+
+// console.log(stringOfWords(s))
+
+//********************************** */
+
+
+let arr = ['7', '10']
+
 function arrMultiply(arr){
     return `${arr[0] * arr[1]}`
 }
-
 console.log(arrMultiply(arr))
