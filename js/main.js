@@ -83,3 +83,21 @@
 //     return `${arr[0] * arr[1]}`
 // }
 // console.log(arrMultiply(arr))
+
+//********************************** */
+
+// stringOne = 'bubble gum'
+// stringTwo = 'turtle ham'
+
+// function mutateMyStrings(stringOne, stringTwo){
+//     let a1 = stringOne.split('')
+//     let a2 = stringTwo.split('')
+//     let morph = [stringOne].join('\n')
+
+//     for(i=0; i<a1.length; i++) {
+//         a1[i] = a2[i];
+//         morph = a1.join('').push()
+//     }
+//     return morph
+// }
+// console.log(mutateMyStrings(stringOne, stringTwo))
