@@ -119,3 +119,21 @@ let discovered = 'tiiesae'
 // }
 
 // console.log(uncensor(infected, discovered))
+
+//**************************************************** */
+//  let stringOne = 'bubble gum'
+//  let stringTwo = 'turtle ham'
+
+//  function mutateMyStrings(stringOne, stringTwo){
+//     let arr1 = stringOne.split('')
+//     let arr2 = stringTwo.split('')
+//     let finalValue = [stringOne]
+//     for(i=0; i<arr1.length; i++){
+//         arr1[i] = arr2[i]
+//         finalValue.push(arr1.join(""))
+//     }
+//     return finalValue.join('\n')
+//  }
+//  console.log(mutateMyStrings(stringOne, stringTwo))
+
+//****************************************** */
