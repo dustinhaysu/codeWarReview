@@ -118,4 +118,4 @@ let discovered = 'tiiesae'
 //     return [...infected].map(el => el ==='*'? arr.shift() : el).join('')
 // }
 
-// console.log(encensor(infected, discovered))
+// console.log(uncensor(infected, discovered))
