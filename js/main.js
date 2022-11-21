@@ -77,9 +77,9 @@
 //********************************** */
 
 
-let arr = ['7', '10']
+// let arr = ['7', '10']
 
-function arrMultiply(arr){
-    return `${arr[0] * arr[1]}`
-}
-console.log(arrMultiply(arr))
+// function arrMultiply(arr){
+//     return `${arr[0] * arr[1]}`
+// }
+// console.log(arrMultiply(arr))
