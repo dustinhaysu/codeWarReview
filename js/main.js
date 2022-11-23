@@ -164,12 +164,15 @@
 // console.log(mutateMyStrings(stringOne, stringTwo))
 //********************** */
 
-let infected = "*h*s *s v*ry *tr*ng*"
-let discovered = "tiiesae"
+// let infected = "*h*s *s v*ry *tr*ng*"
+// let discovered = "tiiesae"
 
-function uncensor(infected, discovered){
-    let arr = [...discovered];
-    return [...infected].map(el => el === '*'? arr.shift(): el).join('')
-}
+// function uncensor(infected, discovered){
+//     let arr = [...discovered];
+//     return [...infected].map(el => el === '*'? arr.shift(): el).join('')
+// }
 
-console.log(uncensor(infected, discovered))
+// console.log(uncensor(infected, discovered))
+
+//****************************************** */
+
