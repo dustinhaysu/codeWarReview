@@ -109,8 +109,8 @@
 // }
 // console.log(stringOfWords(s))
 //******************************************** */
-let infected = '*h*s *s v*ry *tr*ng*'
-let discovered = 'tiiesae'
+// let infected = '*h*s *s v*ry *tr*ng*'
+// let discovered = 'tiiesae'
 
 // function uncensor(infected, discovered){
 //     const arr = [...discovered]
@@ -137,3 +137,30 @@ let discovered = 'tiiesae'
 //  console.log(mutateMyStrings(stringOne, stringTwo))
 
 //****************************************** */
+
+// let infected = "*h*s *s v*ry *tr*ng*"
+// let discovered = "tiiesae"
+
+// function uncensor(infected, discovered){
+//     const arr = [...discovered]
+//     return [...infected].map(el => el ==='*'? arr.shift() : el).join('')
+// }
+//************************************************ */
+
+// let stringOne = "bubble gum"
+// let stringTwo = "turtle ham"
+
+// function mutateMyStrings(stringOne, stringTwo){
+//     let arr1 = stringOne.split('')
+//     let arr2 = stringTwo.split('')
+//     let finalValue = [stringOne]
+//     for(i=0; i<arr1.length; i++){
+//         arr1[i] = arr2[i];
+//         finalValue.push(arr1.join(''))
+//     }
+//     return finalValue.join('\n')
+// }
+
+// console.log(mutateMyStrings(stringOne, stringTwo))
+//********************** */
+
