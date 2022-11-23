@@ -194,3 +194,20 @@
 // console.log(butApparently(input))
 //*************************************************** */
 
+let input = "It was great and I\'ve never been on live television before but sometimes i don\'t watch this"
+ let input2 = "but apparently"
+ let input3 = ''
+
+ function apparently(input){
+    arr = input.split(' ')
+    for(i=0; i<arr.length; i++){
+        for(i=0; i<arr.length; i++){
+            if(arr[i] === 'but' && arr[i + 1] !== 'apparently'){
+                arr[i] = 'but apparently'
+            } else if(arr[i] === 'and' && arr[i+1] !== 'apparently'){
+                arr[i] = 'and apparently'
+            }
+    }
+ } return arr.join(' ')
+}
+console.log(apparently(input))
