@@ -214,3 +214,8 @@
 
 //****************************************************************** */\\
 
+// use template literal, for loop, if(!arr[i]){arr[i] = " "}, join('\n') final array
+
+// let array = [7, ,'car']
+// array[7]='what?'
+// console.log(array)
