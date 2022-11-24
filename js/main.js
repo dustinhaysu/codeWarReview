@@ -219,3 +219,21 @@
 // let array = [7, ,'car']
 // array[7]='what?'
 // console.log(array)
+
+let str1 = "Hello"
+let str2 = "World!!!"
+
+function transpose(str1, str2){
+    let ar1 = str1.split('')
+    let ar2 = str2.split('')
+    let transStr = []
+    let length = ar1.length > ar2.length ? ar1.length : ar2.length
+
+    for(i=0; i<length; i++){
+        if(!ar1[i]){ar1[i] = " "}
+        if(!ar2[i]){ar2[i] = " "}
+        transStr.push(`${ar1[i]} ${ar2[i]}`)
+    }
+    return transStr.join('\n')
+}
+console.log(transpose(str1, str2))
