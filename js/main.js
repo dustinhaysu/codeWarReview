@@ -274,17 +274,32 @@
     //*********************************************************************************************** */
 
 
-    let str1 = "cccccc"
-    let str2 = "aaa"
-    function substringTest(str1, str2) {
-        str1 = str1.toLowerCase()
-        str2 = str2.toLowerCase()
-        let loopLength = Math.max(str1.length, str2.length)
-        for(i=0; i<loopLength-1; i++){
-            if(str1.indexOf(str2.substring(i, i+2)) > -1 ){
-                return true
-            }
-        }
-        return false
-    }
-    console.log(substringTest(str1, str2))
+    // let str1 = "cccccc"
+    // let str2 = "aaa"
+    // function substringTest(str1, str2) {
+    //     str1 = str1.toLowerCase()
+    //     str2 = str2.toLowerCase()
+    //     let loopLength = Math.max(str1.length, str2.length)
+    //     for(i=0; i<loopLength-1; i++){
+    //         if(str1.indexOf(str2.substring(i, i+2)) > -1 ){
+    //             return true
+    //         }
+    //     }
+    //     return false
+    // }
+    // console.log(substringTest(str1, str2))
+
+    //****************************************************** */
+
+   // switch:
+
+    // function likes(names) {
+    //     names = names || [];
+    //     switch(names.length){
+    //             case 0: return 'no one likes this'; break;
+    //             case 1: return names[0] + 'like this'; break;
+    //             case 2: return names[0] + 'and' + names[1] + 'like this'; break;
+    //         case 3: return names[0] + ',' + names[1] + 'and' + names[2] + 'like this'; break;
+    //     default: return names[0 +',' + names[1] + 'and' + (names.length -2) +'others like this';      
+    //  }
+    // }
