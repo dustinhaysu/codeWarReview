@@ -270,3 +270,8 @@ let str1 = "It\'s my part and I\'ll cry if I want to"
     // }
  
     //console.log(SubstringTest(str1, str2))
+
+    //*********************************************************************************************** */
+
+
+    
