@@ -240,8 +240,8 @@
 
 //*****************************8 */
 
-let str2 = "We\'re going to party like it\'s 1999"
-let str1 = "It\'s my part and I\'ll cry if I want to"
+// let str2 = "We\'re going to party like it\'s 1999"
+// let str1 = "It\'s my part and I\'ll cry if I want to"
 
 // let str2 ='Pqqqqqqqqqqqqoh'
 // let str1 = 'oh'
@@ -274,4 +274,17 @@ let str1 = "It\'s my part and I\'ll cry if I want to"
     //*********************************************************************************************** */
 
 
-    
+    let str1 = "cccccc"
+    let str2 = "aaa"
+    function substringTest(str1, str2) {
+        str1 = str1.toLowerCase()
+        str2 = str2.toLowerCase()
+        let loopLength = Math.max(str1.length, str2.length)
+        for(i=0; i<loopLength-1; i++){
+            if(str1.indexOf(str2.substring(i, i+2)) > -1 ){
+                return true
+            }
+        }
+        return false
+    }
+    console.log(substringTest(str1, str2))
