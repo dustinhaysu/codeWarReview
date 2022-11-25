@@ -305,25 +305,25 @@
     // }
 
     //******************************************************************** */
-let str1 = 'abcde'
-let str2 = 'cdefgh'
-let str3 = 'abaab'
-let str4 = 'aabab'
+// let str1 = 'abcde'
+// let str2 = 'cdefgh'
+// let str3 = 'abaab'
+// let str4 = 'aabab'
 
-// split strings, count like occurrences, slice array 2
+// // split strings, count like occurrences, slice array 2
 
-    function mergeStrings(str1, str2){
-       let arr1 = str1.split('')
-        let arr2 = str2.split('')
-        let repeatCount = 1
+//     function mergeStrings(str1, str2){
+//        let arr1 = str1.split('')
+//         let arr2 = str2.split('')
+//         let repeatCount = 1
 
-        for(i=0; i<arr1.length -1; i++){
-            if(arr1[i] === arr2[i] && arr1[i+1] === arr2[i+1]){
-                repeatCount = 1+1
-            }
-        }
-        return arr2.slice(repeatCount).join('')
+//         for(i=0; i<arr1.length -1; i++){
+//             if(arr1[i] === arr2[i] && arr1[i+1] === arr2[i+1]){
+//                 repeatCount = 1+1
+//             }
+//         }
+//         return arr2.slice(repeatCount).join('')
 
 
-    }
-    console.log(mergeStrings(str1, str2))
+//     }
+//     console.log(mergeStrings(str1, str2))
