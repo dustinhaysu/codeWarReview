@@ -347,3 +347,27 @@
 // return false
 // }
 // console.log(substringTest(str1, str2))
+//********************************************************************* */
+//// test with this "abcde" + "cdefgh" => "abcdefgh"
+// test with this too "abaab" + "aabab" => "abaabab"
+
+// let first = "abaab"
+// let second = "aabab"
+
+
+// function mergeStrings(first, second){
+//     let count = 0;
+   
+//     for (let i = 0; i < first.length; i++) {
+//       if (first[i] == second[count]) {
+//         count++;
+//       } else {
+//         count = 0;
+//         if (first[i] == second[count]) count++;
+//       }
+//     }
+ 
+//     return first + second.slice(count);
+//   }
+
+// console.log(mergeStrings(first, second))
