@@ -327,3 +327,23 @@
 
 //     }
 //     console.log(mergeStrings(str1, str2))
+
+//************************************** *
+
+//indexOf(), loop, substring(), toLowerCase(), 
+
+// let str4 = "We\'re going to party like it\'s 1999"
+// let str3 = "It\'s my party and I\'ll cry if I want to"
+// let str1 = 'AAAAAAAAAAA'
+// let str2 = "ABABABABABAB"
+// function substringTest(str1, str2){
+//     str1 = str1.toLowerCase()
+//     str2 = str2.toLowerCase()
+//      for(i=0; i<str1.length;i++){
+//         if(str1.indexOf(str2.substring(i,i+2))>-1){
+//             return true
+//         }
+//      }
+// return false
+// }
+// console.log(substringTest(str1, str2))
