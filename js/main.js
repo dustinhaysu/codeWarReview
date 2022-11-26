@@ -371,3 +371,17 @@
 //   }
 
 // console.log(mergeStrings(first, second))
+
+//************************************************** */
+// for loop, if type of === 'string' index i = index[i].toLowerCase()
+let arr = ['CAR', 7, false, 'FUN', 'BUNNY']
+function arrayLowerCase(arr) {
+    for(i=0; i<arr.length; i++){
+        if(typeof arr[i] === 'string'){
+            arr[i] = arr[i].toLowerCase()
+        }
+    }
+return arr
+}
+
+console.log(arrayLowerCase(arr))
