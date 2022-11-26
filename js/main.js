@@ -374,14 +374,26 @@
 
 //************************************************** */
 // for loop, if type of === 'string' index i = index[i].toLowerCase()
-let arr = ['CAR', 7, false, 'FUN', 'BUNNY']
-function arrayLowerCase(arr) {
-    for(i=0; i<arr.length; i++){
-        if(typeof arr[i] === 'string'){
-            arr[i] = arr[i].toLowerCase()
-        }
-    }
-return arr
-}
+// let arr = ['CAR', 7, false, 'FUN', 'BUNNY']
+// function arrayLowerCase(arr) {
+//     for(i=0; i<arr.length; i++){
+//         if(typeof arr[i] === 'string'){
+//             arr[i] = arr[i].toLowerCase()
+//         }
+//     }
+// return arr
+// }
 
-console.log(arrayLowerCase(arr))
+// console.log(arrayLowerCase(arr))
+//******************************************************************* */
+
+
+// const helloWorld = () => {
+//     let x = String(/Hello, World!/)
+//     x = x.substring(1, x.length - 1)
+//     return x
+//     };
+//     console.log(helloWorld())
+//     console.log(helloWorld())
+//********************************************************************************************** */
+
