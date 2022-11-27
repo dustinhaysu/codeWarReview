@@ -397,3 +397,14 @@
 //     console.log(helloWorld())
 //********************************************************************************************** */
 
+//array to lowercase
+// try map() with ternary typeof === 'string
+
+// let arr = ['CAR', 7, false, 'FUN', 'BUNNY']
+// function arrayLowerCase(arr) {
+//    return arr.map(el => typeof el === 'string'? el = el.toLowerCase():el)
+// }
+// console.log(arrayLowerCase(arr))
+
+//************************************************************* */
+
