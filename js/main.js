@@ -416,4 +416,29 @@
 // console.log(helloWorld())
 
 //**************************************************************** */
+// merge two strings together 
 
+// str1 is count and str2 is for loop i
+// if str2 = str1 ++count
+// else count = 0 if(str2 = str1 ++count)
+
+// let first = "abaab" 
+// let second = "aabab"
+
+// function mergeStrings(first, second){
+//     let count = 0
+
+//     for(i=0; i<first.length; i++){
+//         if(first[i]=== second[count]){
+//             count++
+//         }
+//         else {
+//             count = 0
+//             if(first[i]===second[count]){
+//                 count++
+//             }
+//         }
+//     }
+//    return first+second.slice(count)
+// }
+// console.log(mergeStrings(first, second))
