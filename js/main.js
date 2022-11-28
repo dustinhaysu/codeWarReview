@@ -442,3 +442,5 @@
 //    return first+second.slice(count)
 // }
 // console.log(mergeStrings(first, second))
+//******************************************************************************** */
+
