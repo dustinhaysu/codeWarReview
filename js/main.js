@@ -485,3 +485,15 @@
 
 //*********************************************************************** */
 
+// let data = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+//     }
+    
+//     function keysAndValues(data){
+//        return [Object.keys(data), Object.values(data)] 
+//     }
+//     console.log(keysAndValues(data))
+//****************************************************************8 */
+
