@@ -539,6 +539,22 @@
 
 //******************************************************************************************* */
 
+// let a = ['a', 'b', 'c', 'd']
+//  let b = [1, 2, 3, 4, 5]
+//  function mergeArrays(a, b) {
+//     let returnArray = []
+//     let counter = 0
+//     while(a[counter] || b[counter]){
+//         if(a[counter]){
+//             returnArray.push(a[counter])
+//         }
+//         if(b[counter]){
+//             returnArray.push(b[counter])
+//         }
+//         counter++
+//     }
+//     return returnArray
+// }
+// console.log(mergeArrays(a,b))
 
-    
-    
+//************************************************************************************8 */
