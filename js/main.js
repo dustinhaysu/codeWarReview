@@ -518,8 +518,11 @@
 
 //************************************************************************* */
 
-let names = ['Car', 'Bunny', 'for', 'Letter']
-sortMe = function( names ){
-    return names.sort()
-}
-console.log(sortMe(names))
+// let names = ['Car', 'Bunny', 'for', 'Letter']
+// sortMe = function( names ){
+//     return names.sort()
+// }
+// console.log(sortMe(names))
+
+//**************************************************************************** */
+
