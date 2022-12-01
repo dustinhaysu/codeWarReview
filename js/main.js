@@ -557,4 +557,26 @@
 // }
 // console.log(mergeArrays(a,b))
 
-//************************************************************************************8 */
+//************************************************************************************8 
+
+// let a = ['a', 'b', 'c', 'd', 'e']
+// let b = [1, 2, 3, 4, 5, 6];
+// function mergeArrays(a, b){
+//     let returnArray = [];
+//     let counter = 0;
+//     while(a[counter] || b[counter]){
+//         if(a[counter]){
+//             returnArray.push(a[counter])
+//         }
+//         if(b[counter]){
+//             returnArray.push(b[counter]);
+//         }
+//         counter++
+
+//     }
+// return returnArray
+// }
+// console.log(mergeArrays(a, b))
+
+// ***********************************************************************
+
