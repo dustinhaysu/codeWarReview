@@ -601,4 +601,31 @@
 //     console.log(keysAndValues(data))
 
 //*********************************************************** */
+//return a mixed array of one element from each array one after the other
+// while loop with || for both arrays
+// if array element is truthy push() element to a return array - two if statements
+// count++
+// return a return array
+// create a counter variable
+// let a = ['a', 'b', 'c', 'd']
+// let b = [1, 2, 3, 4, 5]
+// function mergeArrays(a, b) {
+//     let counter = 0;
+//     let returnArray = [];
+//     while(a[counter] || b[counter]){
+//         if(a[counter]){
+//             returnArray.push(a[counter])
+//         }
+//         if(b[counter]){
+//             returnArray.push(b[counter])
+//         }
+//         counter++
+//     }
+//     return returnArray
+
+// }
+
+// console.log(mergeArrays(a, b))
+
+//******************************************************************** */
 
