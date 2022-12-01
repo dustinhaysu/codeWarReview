@@ -629,3 +629,19 @@
 
 //******************************************************************** */
 
+// let arr = [91,75,86,14,82]
+// function solve(arr){
+//     arr=arr.sort((a, b) => b - a)
+//     let finalArray = [];
+//     for(i=0,j=arr.length-1; i<=j; i++,j--){
+//         if(i === j){
+//             finalArray.push(arr[i])
+//         }
+//         else{finalArray.push(arr[i], arr[j])}
+//     }
+//     return finalArray
+// }
+
+// console.log(solve(arr))
+
+//******************************************************************************** */
