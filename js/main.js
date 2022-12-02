@@ -689,3 +689,21 @@
 
 //************************************************************************************** */
 
+// sort array double loop  push result to newArray if i === j push i 
+
+// let arr = [91,75,86,14,82]
+// function solve(arr){
+//     arr.sort((a,b)=> b-a)
+//     const newArray = [];
+//     for(i=0,j=arr.length-1; i<=j; i++,j-- ){
+//         if(i===j){
+//             newArray.push(arr[i])
+//         } else {
+//             newArray.push(arr[i], arr[j])
+//         }
+//     }
+//     return newArray
+// }
+// console.log(solve(arr))
+//****************************************************************************************** */
+
