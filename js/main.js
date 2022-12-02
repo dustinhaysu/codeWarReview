@@ -666,3 +666,15 @@
 
 //************************************************************************** */
 
+// let [arr1, arr2] = [[6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]]
+
+// function findMissing(arr1, arr2) {
+//     let missingNumber = 0
+//     let value1 = arr1.reduce((accum, curVal) => accum + curVal, 0);
+//     let value2 = arr2.reduce((accum, curVal) => accum + curVal, 0);
+//     value1>value2? missingNumber = value1 - value2 : missingNumber = value2 - value1
+//     return missingNumber
+// }
+// console.log(findMissing(arr1, arr2))
+//********************************************************************************** */
+
