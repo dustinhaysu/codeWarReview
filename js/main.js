@@ -645,3 +645,24 @@
 // console.log(solve(arr))
 
 //******************************************************************************** */
+
+// sort array, new array, double for loop, push elements to new array, if statements(arr[i]===arr[j] arr[i] if arr[i or j] {push arr[i or j]})
+
+// let arr = [91,75,86,14,82]
+// function solve(arr){
+//     const newArray = [];
+//     arr.sort((a, b)=> b - a)
+//     for(i=0,j=arr.length-1; i<=j; i++,j--){
+//         if(i === j){
+//             newArray.push(arr[i])
+//         }
+//         else{
+//             newArray.push(arr[i], arr[j])
+//         }
+//     }
+//     return newArray
+// }
+// console.log(solve(arr))
+
+//************************************************************************** */
+
