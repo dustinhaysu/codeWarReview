@@ -706,4 +706,15 @@
 // }
 // console.log(solve(arr))
 //****************************************************************************************** */
+//map(), find()
+// var a1 = ['jellyfish', 'koi', 'caribou', 'owl', 'dolphin'];
+// var a2 = ['ostrich', 'jaguar', 'deer', 'camel', 'kangaroo'];
+
+// function sortArray(a1, a2) {
+//     return a1.map(el1 => a2.find(el2 => el1[0] === el2[0]))
+// }
+
+// console.log(sortArray(a1, a2))
+
+//***************************************************************** */
 
