@@ -718,3 +718,16 @@
 
 //***************************************************************** */
 
+// REFACTORING ARRAYS
+// let arr = [9, 7, 6, 9]
+// let n = 1
+// function removeNthElement(arr, n) {
+// // Fix it
+// var arrCopy = arr.slice();
+//  arrCopy.splice(n, 1); // removes the nth element
+//  return arrCopy
+// }
+
+// console.log(removeNthElement(arr,n))
+
+//*************************************************************************** */
