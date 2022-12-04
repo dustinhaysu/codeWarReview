@@ -786,3 +786,17 @@ const arr2 = [78, 42, "ciao"]
 //   console.log(hotSingles(arr1, arr2))
 //********************************************************* */
 
+// var a1 = ['jellyfish', 'koi', 'caribou', 'owl', 'dolphin'];
+// var a2 = ['ostrich', 'jaguar', 'deer', 'camel', 'kangaroo'];
+
+// /*function sortArray (a1, a2) {
+// return a1.map( v => a2.find( w => v[0]===w[0] ) )
+// }*/
+
+// function sortArray (a1, a2){
+//     return a1.map(v=>a2.find(w => v[0]===w[0]))
+// }
+// console.log(sortArray(a1, a2))
+
+//********************************************************************************** */
+
