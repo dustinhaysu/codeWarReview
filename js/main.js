@@ -861,3 +861,15 @@
     // console.log(filterHomogenous(arr))
 
     //********************************************************************************* */
+
+//     let arr = [6, 7, 8, 9]
+
+//     function withoutLast(arr) {
+//     // Fix it
+//     //return arr.pop(); // removes the last element
+//     return arr.slice(0, -1)
+//     return arr
+
+// }
+
+// console.log(withoutLast(arr))
