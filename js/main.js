@@ -746,8 +746,8 @@
 
 //************************************************************************************* */
 //concat() arrays,
-const arr1 = [77, "ciao"]
-const arr2 = [78, 42, "ciao"]
+// const arr1 = [77, "ciao"]
+// const arr2 = [78, 42, "ciao"]
 
 // function hotSingles(arr1, arr2) {
 //     var newArr = [];  
@@ -811,3 +811,38 @@ const arr2 = [78, 42, "ciao"]
 // console.log(arraySum(arr))
 //*************************************************************************** */
 
+// let arr = [9, 7, 6, 9]
+// let n = 1
+// function removeNthElement(arr, n) {
+// // Fix it
+// var arrCopy = arr.slice();
+// arrCopy.splice(n, 1); // removes the nth element
+// return arrCopy;
+// }
+
+// console.log(removeNthElement(arr, n))
+
+//********************************************************************** */
+//populate and retun new array with values that appear only once. includes()
+// const arr1 = [77, "ciao"]
+// const arr2 = [78, 42, "ciao"]
+
+// function hotSingles(arr1, arr2) {
+//     let newArray = []
+//     for(let i = 0; i<arr1.length; i++){
+//         if(!newArray.includes(arr1[i]) && !arr2.includes(arr1[i])){
+//             newArray.push(arr1[i])
+//         }
+//     }
+//     for(let i = 0; i<arr2.length; i++){
+//         if(!newArray.includes(arr2[i]) && !arr1.includes(arr2[i])){
+//             newArray.push(arr2[i])
+//         }
+
+//     }
+//     return newArray
+// }
+
+// console.log(hotSingles(arr1, arr2))
+
+//********************************************** */
