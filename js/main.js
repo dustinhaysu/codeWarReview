@@ -928,4 +928,17 @@
 // }
 // console.log(arraySum(arr))
 //*************************************************************************** */
-
+//forEach() array inside array use every() to find out if all elements are the same type. el => typeof el[0] ===el  
+//let arr = [[1, 5, 4], ['a', 3, 5], ['b'], [], ['1', 2, 3]];
+// function filterHomogenous(arrays) {
+//     returnArray = []
+//     for(const array of arrays){
+//         if(every(el => el[0]===el)){
+//           returnArray.push(array)
+//         }
+//     }
+//     return returnArray
+// function filterHomogenous(arr){
+// return arr.filter(subArr => subArr.length > 0 && subArr.every(val => typeof val === typeof subArr[0]))
+// }
+// console.log(filterHomogenous(arr))
