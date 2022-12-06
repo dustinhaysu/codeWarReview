@@ -912,3 +912,20 @@
 
 //**************************************************************************** */
 
+// let arr = [6, 7, 8, 9]
+
+// function withoutLast(arr) {
+// // Fix it
+// return arr.slice(0, -1); // removes the last element
+// }
+// console.log(withoutLast(arr))
+
+//******************************************************************* *
+//reduce -> map -> double ternary
+// const arr = [[1, 2, [1, 3, 2]], 6]
+// function arraySum(arr) {
+//     return arr.reduce((n, x) => n + ( Array.isArray(x) ? arraySum(x) : Number.isNaN(x)? 0 : x),0)
+// }
+// console.log(arraySum(arr))
+//*************************************************************************** */
+
