@@ -942,3 +942,12 @@
 // return arr.filter(subArr => subArr.length > 0 && subArr.every(val => typeof val === typeof subArr[0]))
 // }
 // console.log(filterHomogenous(arr))
+// filter() every()
+// let arr = [[1, 5, 4], ['a', 3, 5], ['b'], [], ['1', 2, 3]];
+// function filterHomogenous(arr) {
+//     return arr.filter(subArr => subArr.length > 0 && subArr.every(val => typeof val === typeof subArr[0]))
+// }
+// console.log(filterHomogenous(arr))
+
+//********************************************************************************************** */
+
