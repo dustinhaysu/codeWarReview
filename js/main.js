@@ -970,3 +970,19 @@
 
 //*************************************************************************** */
 
+// const arr = [1, 2, 3]
+// let index = 1
+
+// Array.prototype.remove = function (index){
+//     return this.splice(index, 0)
+// }
+
+// Array.prototype.remove = function (index) {
+//     if (Number.isInteger(index) && index >= 0) this.splice(index, 1);
+//     return this;
+// }
+
+// console.log(arr.remove(1))
+
+//********************************************************************** */
+
