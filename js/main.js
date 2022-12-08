@@ -986,3 +986,14 @@
 
 //********************************************************************** */
 
+// let numbers = [1, 5.2, 4, 0, -1]
+// function sum (numbers) {
+//     return numbers.reduce((a, b) => a + b, 0)
+// }
+
+// console.log(sum(numbers))
+
+//************************************************ */
+
+let arr = [[1, 5, 4], ['a', 3, 5], ['b'], [], ['1', 2, 3]];
+function filterHomogenous(arrays) {}
