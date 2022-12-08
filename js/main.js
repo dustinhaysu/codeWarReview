@@ -994,6 +994,13 @@
 // console.log(sum(numbers))
 
 //************************************************ */
+// filter(), every()
+// let arrays = [[1, 5, 4], ['a', 3, 5], ['b'], [], ['1', 2, 3]];
+// function filterHomogenous(arrays) {
 
-let arr = [[1, 5, 4], ['a', 3, 5], ['b'], [], ['1', 2, 3]];
-function filterHomogenous(arrays) {}
+//     return arrays.filter(subArray => subArray.length > 0 && subArray.every((el) => typeof subArray[0] === typeof el))
+// }
+// console.log(filterHomogenous(arrays))
+
+//***************************************************************************************** */
+
