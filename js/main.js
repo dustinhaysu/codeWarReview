@@ -1004,3 +1004,26 @@
 
 //***************************************************************************************** */
 
+// const arrays = [[1,2,3,4,5,6], [7,7,7,-7,7,7], [1,1,1,1,1,1]]
+// let shift = 3
+// // [1,2,3,11,12,13,-6,8,8,1,1,1]
+
+// function addingShifted (arrays, shift) {
+//     let result = [];
+//     let start = 0;
+//     for (let array of arrays) {
+//     for (let i = 0; i < array.length; i += 1) {
+//     result[start + i] = (result[start + i] || 0) + array[i];
+//     }
+//     start += shift;
+//     }
+//     return result;
+// }
+
+// console.log(addingShifted(arrays, shift))
+
+// //result[start + i] = (result[start +i] || 0) + array[i])
+// // starts building result array by adding array[i] to 0 under index result[start + i], then adds shift number to start, on second loop result[start + i] can have a value so result[start + i] should be added to array[i], eventually the loop will go back to adding elements to the end of the array genius!!!! 
+
+//******************************************************************************** */
+
