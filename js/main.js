@@ -1027,3 +1027,36 @@
 
 //******************************************************************************** */
 
+
+// const arrayOfArrays = [[1,2,3,4,5,6], [7,7,7,-7,7,7], [1,1,1,1,1,1]]
+// let shift = 3
+
+// function addingShifted (arrayOfArrays, shift) {
+//     let newArr = []
+//     let count = 0;
+//     for(let array of arrayOfArrays){
+//         for(let i = 0; i < array.length; i++) {
+//             newArr[count + i] = (newArr[count + i] || 0) + array[i]
+//         }
+//         count += shift;
+//     }
+//     return newArr
+// }
+// console.log(addingShifted(arrayOfArrays, shift))
+
+//******************************************************************** */
+
+// const arr = [1, 2, 3]
+// let index = 1
+
+// Array.prototype.remove = function (index){
+//     if (Number.isInteger(index) && index >= 0){
+//             this.splice(index, 1)
+//         }
+//         return this;
+// }
+
+// console.log(arr.remove(1))
+
+//************************************************************************** */
+
