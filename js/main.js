@@ -1060,3 +1060,21 @@
 
 //************************************************************************** */
 
+// const arrays = [[1,2,3,4,5,6], [7,7,7,-7,7,7], [1,1,1,1,1,1]]
+// let shift = 3
+
+// function addingShifted (arrays, shift) {
+//     const newArr = [];
+//     let index = 0
+//     for(let array of arrays){
+//         for(i=0; i<array.length; i++){
+//             newArr[index + i] = (newArr[index + i] || 0) + array[i]
+//         }
+//         index += shift
+//     }
+//     return newArr
+// }
+
+// console.log(addingShifted(arrays, shift))
+
+//***************************************************************** */
