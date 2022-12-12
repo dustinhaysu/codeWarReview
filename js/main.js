@@ -1117,8 +1117,8 @@
 //     }
 //     console.log(sortme(names))
 //***************************************************************************** */
-const a = ["Hello", "there", "I'm", "fine"]
-const names = ["C", "d", "a", "B"]
+//const a = ["Hello", "there", "I'm", "fine"]
+//const names = ["C", "d", "a", "B"]
 // input: names - unsorted strings
 // output: case-agnostic sort
 // sortme = function( names ){
@@ -1136,4 +1136,15 @@ const names = ["C", "d", "a", "B"]
 // console.log(sortme(names))
 
 //*****************************************************
+
+// const names = ["Hello", "there", "I'm", "fine"]
+// const d = ["C", "d", "a", "B"]
+// // // input: names - unsorted strings
+// // // output: case-agnostic sort
+// sortme = function( names ) {
+//     return names.sort((a,b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+// }
+// console.log(sortme(names))
+
+//******************************************************************************************** */
 
