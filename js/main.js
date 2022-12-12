@@ -1116,3 +1116,24 @@
 //     })
 //     }
 //     console.log(sortme(names))
+//***************************************************************************** */
+const a = ["Hello", "there", "I'm", "fine"]
+const names = ["C", "d", "a", "B"]
+// input: names - unsorted strings
+// output: case-agnostic sort
+// sortme = function( names ){
+//     return names.sort(function(first, second) {
+//     return first.toLowerCase().localeCompare(second.toLowerCase())
+//     })
+//     }
+
+
+// sortme = function( names ){
+//     return names.sort((a,b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+// }
+
+
+// console.log(sortme(names))
+
+//*****************************************************
+
