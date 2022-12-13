@@ -1165,3 +1165,27 @@
 
 //********************************************************************** */
 
+// const names = ["A", "a", "Anna", "anNa", "AnnA", "A"]
+// // // input: names - unsorted strings
+// // // output: case-agnostic sort
+// sortme = function( names ){
+//      console.log(names.sort((a,b) => a.localeCompare(b, {sensitivity: 'base'})));
+//     console.log(names.sort((a,b)=> a.toLowerCase().localeCompare(b.toLowerCase())));
+//     return names.sort((a,b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+// }
+// console.log(sortme(names))
+
+// let x = 'car'
+// let y = 'CAR'
+
+// console.log(names[2].localeCompare(names[3], {sensitivity: 'base'}))
+// console.log(names[2].localeCompare(names[3], {caseFirst : 'false'}))
+// console.log(names[2].toLowerCase().localeCompare(names[3].toLowerCase()))
+// console.log(y.localeCompare(x))
+// console.log(y.toLowerCase().localeCompare(x.toLowerCase()))
+// console.log(x.localeCompare(x))
+
+// let z = names.slice()
+// console.log(z[2].toLowerCase().localeCompare(z[3].toLowerCase()))
+
+//********************************************************************************* */
