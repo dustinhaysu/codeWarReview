@@ -1209,3 +1209,18 @@
 
 //************************************************************************************************** */
 
+//Make this work: `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+
+// const arr = [1,2,3,4,5]
+
+// function doubleArray(arr){
+//     return arr.concat(arr)
+// }
+// console.log(doubleArray(arr))
+
+// function duplicate(arr) {
+//     return arr.concat(arr);
+//   }
+
+//************************************************************ */
+
