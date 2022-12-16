@@ -1239,3 +1239,16 @@
 //     console.log(arraysSimilar(arr1, arr2))
 //*********************************************************************** */
 
+// const courses = ['aeb-1305', 'site-1305', 'play-1215', 'web-1304', 'site-1304', 'beb-1305']
+
+// // input: courses - array of course-names "name-yymm"
+// // output: sorted by "yymm", then "name"
+// const compare = (a, b) => a.slice(-4) - b.slice(-4) || a.localeCompare(b);
+// const sortme = (courses) => courses.sort(compare);
+
+
+// console.log(sortme(courses))
+
+
+//********************************************************************* */
+
