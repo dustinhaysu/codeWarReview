@@ -1263,3 +1263,20 @@
 
 //******************************************** */
 
+// const arr1 = [1, 2, 2, 3, 4]
+// const arr2 = [2, 1, 2, 4, 3]
+// const arr3 = [1, 2, 3, 4]
+// const arr = [1, 2, 3, "4"]
+
+// // function arraysSimilar(arr1, arr2) {
+// //     const sorted = (a,b) => a-b;
+// //     arr1.sort(sorted).filter((item,i) => )
+// // }
+
+// function arraysSimilar(arr1, arr2) {
+//     const sortFunction = (a, b) => a-b;
+//     return arr1.length === arr2.length && arr1.sort(sortFunction).every((a,i) => a === arr2.sort(sortFunction)[i]);
+// }
+// console.log(arraysSimilar(arr1, arr2))
+//******************************************** */
+
