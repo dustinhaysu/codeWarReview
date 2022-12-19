@@ -1291,4 +1291,20 @@
 // console.log(sortme(courses))
 //*********************************************** */
 
+// const arr1 = [1, 2, 2, 3, 4]
+// const arr2 = [2, 1, 2, 4, 3, 4]
+// const arr3 = [1, 2, 3, 4]
+// const arr = [1, 2, 3, "4"]
+
+
+// function arraysSimilar(arr1, arr2) {
+//     const sortFunc = (a,b) => a - b;
+//     arr1.sort(sortFunc);
+//     arr2.sort(sortFunc);
+//     return arr1.length === arr2.length && arr1.every((item, i) => item === arr2[i])
+// }
+// console.log(arraysSimilar(arr1, arr2))
+
+//************************************************ */
+
 
