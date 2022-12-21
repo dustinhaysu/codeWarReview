@@ -1309,14 +1309,32 @@
 
 //localeCompare()
 
-const courses = ['aeb-1305', 'site-1305', 'play-1215', 'web-1304', 'site-1304', 'beb-1305']
+// const courses = ['aeb-1305', 'site-1305', 'play-1215', 'web-1304', 'site-1304', 'beb-1305']
 
-// input: courses - array of course-names "name-yymm"
-// output: sorted by "yymm", then "name"
-sortme = function( courses ){
-    return courses.sort((a,b) => a.slice(-4) - b.slice(-4) || a.localeCompare(b))
-}
+// // input: courses - array of course-names "name-yymm"
+// // output: sorted by "yymm", then "name"
+// sortme = function( courses ){
+//     return courses.sort((a,b) => a.slice(-4) - b.slice(-4) || a.localeCompare(b))
+// }
 
-console.log(sortme(courses))
+// console.log(sortme(courses))
 
+
+//************************************************ */
+
+// const arr1 = [1, 2, 2, 3, 4]
+// const arr2 = [2, 1, 2, 4, 3]
+// const arr3 = [1, 2, 3, 4]
+// const arr = [1, 2, 3, "4"]
+
+// var sorted = (a,b) => a - b
+// function arraysSimilar(arr1, arr2) {
+//     arr1.sort(sorted)
+//     arr2.sort(sorted)
+//     return arr1.length === arr2.length && arr1.every((el, i) => el === arr2[i])
+// }
+
+// console.log(arraysSimilar(arr1, arr2))
+
+//************************************************** */
 
