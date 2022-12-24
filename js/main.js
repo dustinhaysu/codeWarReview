@@ -1337,10 +1337,11 @@
 // console.log(arraysSimilar(arr1, arr2))
 
 //************************************************** */
-let number = 2112
-function squareEveryDigit(number){
-    return `${number}`.split('').map(el => Number(el * el)).join('') * 1
-}
-console.log(typeof squareEveryDigit(number))
+// let number = 2112
+// function squareEveryDigit(number){
+//     return `${number}`.split('').map(el => Number(el * el)).join('') * 1
+// }
+// console.log(typeof squareEveryDigit(number))
 
-console.log(-1 * 1)
+// console.log(-1 * 1)
+//*************************** */
