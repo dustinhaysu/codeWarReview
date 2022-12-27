@@ -1355,4 +1355,26 @@
 //     }
 //     console.log(squareDigits(num))
 //******************************************** */
+ let string = "dude where is my car" // vowel count = 6
 
+function vowelCount(string){
+    let vowels = 0;
+    let vowel = ['a','e','i', 'o', 'u']
+    for(let i in string){
+        if(vowel.includes(string[i]) ){
+            vowels += 1
+        }
+    }
+    return vowels
+}
+console.log(vowelCount(string))
+// let str = 'ron'
+// function tad(str){
+//     if(str[0] === 'a' || 'e'){
+//         return true
+//     }
+//     return false
+// }
+// console.log(tad(str))
+// console.log(str[0])
+// console.log('r' === 'a')
