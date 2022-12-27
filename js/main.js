@@ -1349,4 +1349,10 @@
 // let x = 'I have 75 cans of beer'
 // console.log(parseInt(x.slice(7,9)) + 5)
 //************************************** */
+// let num = 9119
+// function squareDigits(num){
+//     return Number(("" + num).split("").map(function (val) { return val * val;}).join(""));
+//     }
+//     console.log(squareDigits(num))
+//******************************************** */
 
