@@ -1355,19 +1355,19 @@
 //     }
 //     console.log(squareDigits(num))
 //******************************************** */
- let string = "dude where is my car" // vowel count = 6
+//  let string = "dude where is my car" // vowel count = 6
 
-function vowelCount(string){
-    let vowels = 0;
-    let vowel = ['a','e','i', 'o', 'u']
-    for(let i in string){
-        if(vowel.includes(string[i]) ){
-            vowels += 1
-        }
-    }
-    return vowels
-}
-console.log(vowelCount(string))
+// function vowelCount(string){
+//     let vowels = 0;
+//     let vowel = ['a','e','i', 'o', 'u']
+//     for(let i in string){
+//         if(vowel.includes(string[i]) ){
+//             vowels += 1
+//         }
+//     }
+//     return vowels
+// }
+//console.log(vowelCount(string))
 // let str = 'ron'
 // function tad(str){
 //     if(str[0] === 'a' || 'e'){
@@ -1378,3 +1378,25 @@ console.log(vowelCount(string))
 // console.log(tad(str))
 // console.log(str[0])
 // console.log('r' === 'a')
+//***************************************** */
+
+// let num = '17 66 2 89 107 12'
+
+// function highestLowest(num){
+//     const numArr = num.split(' ')
+//     return `${Math.max(...numArr)}, ${Math.min(...numArr)}`
+// }
+// console.log(highestLowest(num))
+
+//************************** */
+
+// const arr1 = [12, 'car', false, 45, 'peaches']
+// const arr2 = ['car', 'beaches', 'windows', 'joined']
+// arr2.push(...arr1)
+// console.log(arr1)
+// console.log(arr2)
+
+//******************************************** */
+
+
+
