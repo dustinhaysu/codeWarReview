@@ -1398,5 +1398,15 @@
 
 //******************************************** */
 
+// let numbers = '18 27 14 109'
+
+// function highestAndLowest(numbers) {
+//     numbers = numbers.split(' ')
+//     return `${Math.max(...numbers)}, ${Math.min(...numbers)}`
+
+// }
+
+// console.log(highestAndLowest(numbers))
+//***************************************************************** */
 
 
