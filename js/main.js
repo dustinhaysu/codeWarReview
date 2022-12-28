@@ -1419,9 +1419,12 @@
 
 //*************************************** */
 
-let num = 8118
+// let num = 8118
 
-function squareEveryDigit(num){
-    return Number(num.toString().split('').map(el => el * el).join(''))
-}
-console.log(squareEveryDigit(num))
+// function squareEveryDigit(num){
+//     return Number(num.toString().split('').map(el => el * el).join(''))
+// }
+// console.log(squareEveryDigit(num))
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
