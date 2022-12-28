@@ -1409,4 +1409,12 @@
 // console.log(highestAndLowest(numbers))
 //***************************************************************** */
 
+// let string = "dude where is my car"
 
+// function vowelCount(string){
+//     let vowels = ['a', 'e', 'i', 'o', 'u']
+//     return string.split('').filter(el => vowels.includes(el) ).length
+// }
+// console.log(vowelCount(string))
+
+//*************************************** */
