@@ -1439,3 +1439,16 @@
 
 //********************** */
 
+// let aa = true
+// let a = false
+
+// function boolean(a){
+//     if(a === true){
+//         return 'Yes'
+//     }
+//     return 'No'
+// }
+// console.log(boolean(a))
+
+//********************************** */
+
