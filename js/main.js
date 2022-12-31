@@ -1459,3 +1459,14 @@
 
 //******************************************** *
 
+// let word = "car"
+// let word1 = "boat"
+
+// function middleChar(word){
+//     return word.length % 2 === 0 ? word[word.length / 2 - 1] + word[word.length / 2] : word[(word.length - 1) / 2]
+// }
+
+// console.log(middleChar(word))
+
+//******************************** */
+
