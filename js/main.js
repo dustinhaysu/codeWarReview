@@ -1478,3 +1478,14 @@
 //  console.log(phone(arr))
 //******************************************** */
 
+// let string = "This website in for losers LOL!"
+
+// function disemvowel(string) {
+//     return string.replace(/[aeiou]/gi, '')
+
+// }
+
+// console.log(disemvowel(string))
+
+//**************************************** */
+
