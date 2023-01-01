@@ -1489,3 +1489,10 @@
 
 //**************************************** */
 
+// function oppositeNumber(num){
+//     return -num 
+// }
+// console.log(oppositeNumber(-3.11))
+
+//************************************ */
+
