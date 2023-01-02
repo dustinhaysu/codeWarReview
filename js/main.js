@@ -1512,3 +1512,12 @@
 
 //*********************************** */
 
+// let string = 'This place sucks!!'
+
+// function disemvowel(string){
+//     return string.replace(/[aeiou]/gi, '')
+// }
+// console.log(disemvowel(string))
+
+//**************************** */
+
