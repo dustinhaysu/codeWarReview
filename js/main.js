@@ -1528,3 +1528,12 @@
 
 //************************************ */
 
+// let num = 123
+
+// function stringConvert(num){
+//     return `${num}`
+// }
+// console.log(typeof stringConvert(num))
+// console.log(stringConvert(num))
+//********************************* */
+
