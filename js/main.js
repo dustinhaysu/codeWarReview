@@ -1521,3 +1521,10 @@
 
 //**************************** */
 
+// function repeatString(n, s,){
+//     return s.repeat(n)
+// }
+// console.log(repeatString(15, "I like to party!!!\n" ))
+
+//************************************ */
+
