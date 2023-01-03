@@ -1537,3 +1537,11 @@
 // console.log(stringConvert(num))
 //********************************* */
 
+// const arr = [1, -1, 2, 3]
+
+// function sumArray(arr){
+//     return arr.filter(num => num>0).reduce((acc, val)=> acc + val, 0)
+// }
+// console.log(sumArray(arr))
+
+//*********************************** */
