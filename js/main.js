@@ -1555,3 +1555,21 @@
 
 //************************************** */
 
+// const object = {
+//     a: 1,
+//     b: 2, 
+//     c: 3
+// }
+
+
+// function solution(object){
+//     let str = ""
+//     for(const property in object ){
+//         str += `${property} = ${object[property]}, `
+//     }
+//     return str.slice(0,-1)
+// }
+// console.log(solution(object))
+
+//******************************************* */
+
