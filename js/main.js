@@ -1572,4 +1572,18 @@
 // console.log(solution(object))
 
 //******************************************* */
+// let pairs = {
+//     a:1,
+//     b:2
+// }
+// function solution(pairs){
+//     let str = ""
+//    for(const property in pairs){
+//     str += `${property} = ${pairs[property]},`
+//    }
+//    return str.slice(0,-1)
+//   }
+
+//   console.log(solution(pairs))
+//********************************************** */
 
