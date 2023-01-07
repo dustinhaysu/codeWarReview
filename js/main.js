@@ -1587,5 +1587,11 @@
 //   console.log(solution(pairs))
 //********************************************** */
 
+// let num = 123
 
+// function numToString(num){
+//     return num.toString()
+// }
+// console.log(numToString(num))
 //************************ */
+
