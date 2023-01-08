@@ -1595,3 +1595,11 @@
 // console.log(numToString(num))
 //************************ */
 
+// const arr = [17, 7, 33, 891]
+
+// function small(arr){
+//     return Math.min(...arr)
+// }
+// console.log(small(arr))
+//*************************************** */
+
