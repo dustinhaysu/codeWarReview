@@ -1603,3 +1603,25 @@
 // console.log(small(arr))
 //*************************************** */
 
+// let strng = 'abcd\nefgh\nijkl'
+// let k = 5
+// let n = 2
+
+
+// function scale(strng, k, n) {
+//     if (strng === '') return ''
+//     let rows = strng.split('\n').map(row => row.split('').map(char => char.repeat(k)).join(''))
+//     console.log(rows)
+//     let res = []
+//     rows.forEach(row => {
+//     for (let i = 0; i < n; i++) {
+//     res.push(row)
+//     }
+//     })
+//     return res.join('\n')
+//     }
+
+//     console.log(scale(strng, k , n))
+
+//**************************************** */
+
