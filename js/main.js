@@ -1625,3 +1625,12 @@
 
 //**************************************** */
 
+// let string = "How can mirrors be real if our eyes aren't real"
+
+// function jadenCase(string){
+//     return string.split(' ').map(el => el[0].toUpperCase() + el.slice(1)).join(' ')
+// }
+// console.log(jadenCase(string))
+
+//************************************************ */
+
