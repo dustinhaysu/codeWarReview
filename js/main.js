@@ -1640,3 +1640,30 @@
 // console.log(smallest([-18,12,104,1]))
 //*************************************** */
 
+// a section of string is separated by \n
+//repeat each letter of a string k amount of times
+// repeat each string section v times 
+// return value
+
+// let string = "abcd\nabcd\nefgh\nefgh\nijkl\nijkl\nmnop\nmnop"
+
+// let k = 5;
+// let v = 2;
+
+// function scale(string, k, v){
+//     if (string === ''){
+//         return ''
+//     }
+//     let rows = string.split('\n').map(row => row.split('').map(char => char.repeat(k)).join(''))
+//     let res = []
+//     rows.forEach(row => {
+//         for(let i=0; i<v; i++){
+//             res.push(row)
+//         }
+//     })
+//     return res.join('\n')
+// }
+// console.log(scale(string, k, v))
+
+///*************************************** */
+
