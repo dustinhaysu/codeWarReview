@@ -1675,11 +1675,11 @@
 // join answer array with a '\n'
 // 
 
-let strng = 'abcd\nefgh\nijkl'
-let k = 5
-let n = 2
+// let strng = 'abcd\nefgh\nijkl'
+// let k = 5
+// let n = 2
 
-function scale(strng, k, n){
+// function scale(strng, k, n){
 //     if(strng === ''){
 //         return ""
 //     }
