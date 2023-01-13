@@ -1696,3 +1696,19 @@
 // console.log(scale(strng, k, n))
 //********************************************** */
 
+// const arr1=[5,4,3,2,1] 
+// const arr2=[6,5,7,8,9]
+
+// function sortArrays(arr1,arr2){}
+  
+// console.log(arr1, arr2);
+
+// //best practice/clever
+// function sortArrays(arr1, arr2) {
+//     return [
+//       arr2.map((_, i) => i).sort((a, b) => arr2[a] - arr2[b] || a - b).map(x => arr1[x]),
+//       arr1.map((_, i) => i).sort((a, b) => arr1[a] - arr1[b] || a - b).map(x => arr2[x]),
+//     ];
+//   }
+// console.log(sortArrays(arr1, arr2))
+
