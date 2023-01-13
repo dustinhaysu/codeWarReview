@@ -1667,3 +1667,32 @@
 
 ///*************************************** */
 
+// conditional return a blank string if blank string
+// "abcd\nabcd\nefgh\nefgh\nijkl\nijkl\nmnop\nmnop" create array of rows split string at \n 
+// repeat letters k times rows.map(row => row.map(char => char.repeat(k)))
+//create blank array answer = []
+//repeat strings v times for(let row of rows){for(i=0;i<v;i++){answer.push(row)}}
+// join answer array with a '\n'
+// 
+
+let strng = 'abcd\nefgh\nijkl'
+let k = 5
+let n = 2
+
+function scale(strng, k, n){
+//     if(strng === ''){
+//         return ""
+//     }
+//     const answer = [];
+//     const rows = strng.split('\n').map(row => row.split("").map(char => char.repeat(k)).join(''));
+//     console.log(rows);
+//     for(let row of rows){
+//         for (let i = 0; i<n; i++){
+//             answer.push(row)
+//         }
+//     }
+//     return answer.join('\n')
+// }
+// console.log(scale(strng, k, n))
+//********************************************** */
+
