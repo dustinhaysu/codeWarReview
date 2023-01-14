@@ -1711,4 +1711,30 @@
 //     ];
 //   }
 // console.log(sortArrays(arr1, arr2))
+// if blank string return ""
+//horizontal = split('\n').map(el => el.split(').map(char => char.repeat(horizontal)).join(''))
+// vertical = rows.forEach(row => for(i=0;i<vertical; i++){
+    //answer.push(row)
+//})
+// return answer.join('\n')
+
+// let strng = 'abcd\nefgh\nijkl'
+// let k = 5
+// let n = 2
+
+// function scale(strng, k, n){
+//     if(strng === ''){
+//         return ''
+//     }
+//     const answer = [];
+//     const rows = strng.split('\n').map(row => row.split('').map(char => char.repeat(k)).join(''));
+
+//     rows.forEach(row => {for (let i=0; i<n; i++){
+//         answer.push(row);
+//     }
+//     })
+//     return answer.join('\n')
+// }
+// console.log(scale(strng, k, n))
+//****************************************** */
 
