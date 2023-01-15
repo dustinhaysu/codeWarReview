@@ -1738,3 +1738,12 @@
 // console.log(scale(strng, k, n))
 //****************************************** */
 
+// let num = 7
+
+// function evenOdd(num){
+//     return num % 2 ? 'odd' : 'even' 
+// }
+// console.log(evenOdd(num))
+
+//******************************************** */
+
