@@ -1751,3 +1751,18 @@
 
 //*********************************************** */
 
+// console.log(Math.round(3.8))
+// console.log(Number(7+"" + 7))
+
+//*********************************************** */
+
+// let x = ""
+// let y = ""
+
+// function addString (x, y){
+
+//     return String(Number(x) + Number(y))
+// }
+// console.log(addString(x,y))
+//********************************************** */
+
