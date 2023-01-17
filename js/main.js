@@ -1766,3 +1766,15 @@
 // console.log(addString(x,y))
 //********************************************** */
 
+
+
+// let number = 18
+
+// function solution (number){
+//     return `Value is ${number.toString().padStart(5, '0')}`
+// }
+
+// console.log(solution(number))
+
+//****************************************** */
+
