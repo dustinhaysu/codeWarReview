@@ -1778,3 +1778,29 @@
 
 //****************************************** */
 
+// let array = ['yellow', 'blue', 'green']
+
+// let x = array.indexOf('yellow')
+
+// array[x] = 'purple'
+
+// console.log(array)
+
+//**************************************** */
+
+// function evenOdd(num){
+//     return num % 2 === 0 ? 'even' : 'odd'
+// }
+
+// console.log(evenOdd(7))
+
+//*************************************** */
+
+// function makeNegative(num) {
+//     return -Math.abs(num)
+// }
+
+// console.log(makeNegative(7))
+
+//******************************************* */
+
