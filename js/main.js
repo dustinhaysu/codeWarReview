@@ -1814,3 +1814,8 @@
 
 //**************************************** */
 
+// const combinedNames = (firstName, lastName) => {
+//     return `${firstName}, ${lastName}`
+// }
+// console.log(combinedNames('Dustin', 'Hays'))
+
