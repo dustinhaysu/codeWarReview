@@ -1818,4 +1818,17 @@
 //     return `${firstName}, ${lastName}`
 // }
 // console.log(combinedNames('Dustin', 'Hays'))
+//************************************ */
+
+// const arr = ['1', '2', '3']
+
+// const stringToNumber = (arr) => {
+//     return arr.map(el => Number(el))
+// }
+// console.log(stringToNumber(arr))
+
+
+
+//************************************ */
+
 
