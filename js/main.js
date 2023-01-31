@@ -1831,4 +1831,11 @@
 
 //************************************ */
 
+// function stringToNum(str){
+//     return Number(str)
+// }
+
+// console.log(typeof stringToNum('123'))
+
+//********************************** */
 
