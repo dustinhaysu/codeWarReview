@@ -1839,3 +1839,10 @@
 
 //********************************** */
 
+// function addString (str1, str2) {
+//     return String(Number(str1) + Number(str2))
+// }
+// console.log(typeof addString('6', '5'))
+
+//****************************************** */
+
