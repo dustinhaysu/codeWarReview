@@ -1854,3 +1854,23 @@
 
 //******************************************** */
 
+// let arr = [true, true, true, false]
+
+// function sheep(arr){
+//     return arr.filter(Boolean).length
+// }
+// console.log(sheep(arr))
+
+//************************************* */
+
+// function size(num){
+//     let stringy = '';
+//     for(i=1; i<=num; i++){
+//         stringy += i%2
+//     }
+//     return stringy
+// }
+
+// console.log(size(10))
+
+//*********************************************** */
