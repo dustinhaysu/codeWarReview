@@ -1846,3 +1846,11 @@
 
 //****************************************** */
 
+// function removeFirstLast (str) {
+//     return str.slice(1,-1)
+// }
+
+// console.log(removeFirstLast('Dwight D. Eisenhower'))
+
+//******************************************** */
+
