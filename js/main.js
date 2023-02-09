@@ -1892,4 +1892,21 @@
 // console.log(greet())
 
 //******************************************* */
+// const arr = [1,2,2]
+// function squarePlus (arr) {
+//     return arr.map(el => el * el).reduce((acc, val)=> acc + val)
+// }
+
+// console.log(squarePlus(arr))
+
+//*********************************** */
+
+// const arr = [1,2,2]
+
+// function squarePlus (arr) {
+//     return arr.reduce((acc, val) => acc +(val * val), 0)
+// }
+// console.log(squarePlus(arr))
+//**************************************** */
+
 
