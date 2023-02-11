@@ -1909,4 +1909,12 @@
 // console.log(squarePlus(arr))
 //**************************************** */
 
+// const boo = [false, true, true, true, false]
+
+// function sheep (boo){
+//     return boo.filter(el => Boolean(el)).length
+// }
+// console.log(sheep(boo))
+
+//***************************************** */
 
