@@ -1926,3 +1926,11 @@
 
 //*************************************** */
 
+// function squareSum(num){
+//     return num.reduce((acc, el) => acc + (el * el),0)
+// }
+
+// console.log(squareSum([2, 2, 2]))
+
+//************************************ */
+
