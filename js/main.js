@@ -1961,3 +1961,24 @@
 
 //***************************************** */
 
+// let s = "abcd\nefgh\nijkl\nmnop"
+
+// function vertMirror(str){
+//     return str.split('\n').map(el => el.split('').reverse().join('')).join('\n')
+
+// }
+
+// function horMirror(str) {
+
+//     return str.split('\n').reverse().join('\n')
+// }
+
+// function oper(fct, s) {
+//     return fct(s)
+// }
+
+// console.log(oper(vertMirror, s))
+// console.log(oper(horMirror, s))
+
+//****************************************** */
+
