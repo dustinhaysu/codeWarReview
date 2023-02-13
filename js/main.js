@@ -1952,3 +1952,12 @@
 
 //*************************************** */
 
+// const arr = [2, 2, 2]
+
+// function squareSum (arr) {
+//     return arr.reduce((acc, el) => acc + (el * el), 0)
+// }
+// console.log(squareSum(arr))
+
+//***************************************** */
+
