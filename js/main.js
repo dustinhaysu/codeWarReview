@@ -1982,3 +1982,11 @@
 
 //****************************************** */
 
+// function noStringSpace(str){
+//     return str.split(' ').join('')
+// }
+
+// console.log(noStringSpace('I like you'))
+
+//***************************************** */
+
