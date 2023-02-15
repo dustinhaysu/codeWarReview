@@ -2002,3 +2002,35 @@
 
 //******************************************* */
 
+// const a = []
+
+// const b = ["Peter"]
+// const c = ["Jacob", "Alex"]
+// const d = ["Max", "John", "Mark"]
+// const e = ["Alex", "Jacob", "Mark", "Max"]
+
+// function likes(arr){
+//     switch (arr.length){
+//         case 0 :return 'nobody likes this' ;
+//         break;
+//         case 1 : return `${arr[0]} likes this`;
+//         break;
+//         case 2 : return `${arr[0]} and ${arr[1]} like this`
+//         break;
+//         case 3 : return `${arr[0]}, ${arr[1]} and ${arr[2]} like this`;
+//         break;
+//         case 4: return `${arr[0]}, ${arr[1]} and ${arr.length - 2} others like this`
+//         break;
+
+
+//     }
+// }
+
+// console.log(likes(a))
+// console.log(likes(b))
+// console.log(likes(c))
+// console.log(likes(d))
+// console.log(likes(e))
+
+//*********************************************** */
+
