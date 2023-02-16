@@ -2034,3 +2034,21 @@
 
 //*********************************************** */
 
+// function findOdd(A) {
+//     var obj = {};
+//     A.forEach(el => {
+//    obj[el] ? obj[el]++ : obj[el] = 1;
+//    console.log(`loop element is ${el}`)
+//    console.log(`object is ${obj[el]}`)
+
+//     });
+//     console.log(obj)
+//     for(prop in obj) {
+//     if(obj[prop] % 2 !== 0) return Number(prop);
+//     }
+//     }
+
+//     console.log(findOdd([1,2,1,2,3,3,3,4,3,3,3,2,2,1]))
+
+//**************************************** */
+
