@@ -2052,3 +2052,21 @@
 
 //**************************************** */
 
+// function oddInt (arr) {
+//     const obj = {}
+//     arr.forEach(el => obj[el] ? obj[el]++ : obj[el] = 1 )
+
+//     console.log(obj)
+
+//     for(prop in obj){
+//         if(obj[prop] % 2 !==0){
+//             console.log (Number(prop), prop)
+//         }
+//     }
+    
+// }
+
+// console.log(oddInt([1,1,7,2,2]))
+
+//************************************* */
+
