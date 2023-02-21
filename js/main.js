@@ -2107,3 +2107,32 @@
 
 //********************************************* */
 
+
+// function findOdd(arr) {
+//     let obj = {}
+//     arr.forEach(el => obj[el] ? obj[el]++ : obj[el]=1)
+//     console.log(obj)
+//     for(let i=0; i<obj.length;i++){
+//         if(obj[i].length%2 === 1){
+//             return obj[i]
+//         }
+//     }
+// }
+
+// console.log(findOdd([0,1,0,1,0]))
+//*********************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
