@@ -2139,3 +2139,20 @@
 
 // console.log(likes(['Tony']))
 //************************************************** /
+
+// const findOddInt = (arr) => {
+//     const obj = {}
+//     arr.forEach(el => obj[el] ? obj[el]++ : obj[el] = 1)
+
+//     for(let item in obj){
+//         if(obj[item] % 2 === 1){
+//             return Number(item)
+//         }
+//     }
+
+
+// }
+
+// console.log(findOddInt([1,2,2,3,3,3,4,3,3,3,2,2,1]))
+
+//**************************************** */
