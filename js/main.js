@@ -2209,3 +2209,17 @@
 
 //***************************************** */
 
+// function findOdd(arr){
+//     obj = {}
+//     arr.forEach(el => obj[el] ? obj[el]++ : obj[el]=1)
+//     for(let item in obj){
+//         if(obj[item] % 2 === 1){
+//             return Number(item)
+//         }
+//     }
+// }
+
+// console.log(findOdd([1,1,2]))
+
+//*************************************** */
+
