@@ -2223,3 +2223,15 @@
 
 //*************************************** */
 
+// function findOdd(arr) {
+//     const obj = {}
+//     arr.forEach(el => obj[el] ? obj[el]++ : obj[el]=1)
+
+// for(let prop in obj)
+// if(obj[prop] %2 === 1)
+// return Number(prop)
+// }
+// console.log(findOdd([0,1,0,1,0]))
+
+//********************************* */
+
