@@ -2286,3 +2286,18 @@
 
 //******************************************* */
 
+// function findOddInt (arr) {
+//     const obj = {}
+//     arr.forEach(el => obj[el]? obj[el]++ : obj[el] = 1 )
+
+//     for(let prop in obj) {
+//         if(obj[prop] % 2 === 1){
+//             return Number(prop)
+//         }
+//     }
+// }
+
+// console.log(findOddInt([1,2,2,3,3,3,4,3,3,3,2,2,1]))
+
+//************************************** */
+
