@@ -2307,3 +2307,30 @@
 // console.log(typeof arrMultiply(['7', '10']))
 
 //********************************************* */
+
+// separate a string of words into an array of words
+//convert words into a length and return the LAST instance of the longest word 
+
+// let s = "a 1 first bb 22 ccc 333 lastt dddd 4444"
+// longestWord = s => s.split(' ').reduceRight((a,b) => (b.length > a.length) ? b: a)
+
+// console.log(longestWord(s))
+
+
+
+
+// function stringOfWords(s){
+//     const arr = s.split(' ')
+    
+//    return arr.map((word, index) => {
+//         word.length <= arr[index + 1].length ? arr[index + 1] : word
+//     } )
+// }
+//***************************************** */
+
+
+
+
+
+
+
