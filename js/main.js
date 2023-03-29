@@ -2329,14 +2329,20 @@
 //***************************************** */
 
 
-function helloWorld(){
-    return 'Hello world!'
-}
-console.log(helloWorld())
+// function helloWorld(){
+//     return 'Hello world!'
+// }
+// console.log(helloWorld())
 
-//*******************************************************8
+//*******************************************************/
 
+// let stringOfWords = "a 1 first bb 22 ccc 333 lastt dddd 4444"
 
+// function longestWord(stringOfWords){
+//     return stringOfWords.split(' ').reverse().sort((a,b) => b.length - a.length)[0]
+// }
+
+// console.log(longestWord(stringOfWords))
 
 
 
