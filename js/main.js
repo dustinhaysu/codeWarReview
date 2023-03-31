@@ -2345,11 +2345,13 @@
 // console.log(longestWord(stringOfWords))
 //***************************************** */
 
-function uncensor(infected, discovered){
-    const arr = [...discovered]
-    return [...infected].map(el => el==='*'? arr.shift(): el).join('')
-}
-console.log(uncensor("w*at*th* h**?!?", "h eey"))
+// function uncensor(infected, discovered){
+//     const arr = [...discovered]
+//     return [...infected].map(el => el==='*'? arr.shift(): el).join('')
+// }
+// console.log(uncensor("w*at*th* h**?!?", "h eey"))
+//************************************* */
+
 
 
 
