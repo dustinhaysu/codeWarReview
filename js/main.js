@@ -2368,19 +2368,34 @@
 //*********************************************** */
 
 
-let stringOne = "apple"
-let stringTwo = "carts"
-function mutateMyStrings(stringOne, stringTwo){
-    let arr1 = stringOne.split('')
-    let arr2 = stringTwo.split('')
+// let stringOne = "apple"
+// let stringTwo = "carts"
+// function mutateMyStrings(stringOne, stringTwo){
+//     let arr1 = stringOne.split('')
+//     let arr2 = stringTwo.split('')
 
-    let answerString = [arr1.join('')]
+//     let answerString = [arr1.join('')]
 
-    for(let i= 0; i<arr1.length; i++){
-        arr1[i] = arr2[i]
-        answerString.push(arr1.join(''))
-    }
-    return answerString.join('\n')
-}
+//     for(let i= 0; i<arr1.length; i++){
+//         arr1[i] = arr2[i]
+//         answerString.push(arr1.join(''))
+//     }
+//     return answerString.join('\n')
+// }
 
-console.log(mutateMyStrings(stringOne, stringTwo))
+// console.log(mutateMyStrings(stringOne, stringTwo))
+//************************************ */
+
+// const infected = "w*at*th* h**?!?"
+// const discovered = "h eey"
+
+// function uncensor(infected, discovered){
+//     const arr =[...discovered]
+//     return[...infected].map(el => el==='*' ? arr.shift(): el).join('')
+// }
+
+
+// console.log(uncensor(infected, discovered))
+
+//************************************ */
+
