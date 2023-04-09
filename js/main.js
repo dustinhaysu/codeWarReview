@@ -2399,3 +2399,41 @@
 
 //************************************ */
 
+// const infected = "w*at*th* h**?!?"
+// const discovered = "h eey"
+
+// function uncensor(infected, discovered){
+//     const arr1 = infected.split('')
+//     const arr2 = discovered.split('')
+//     return arr1.map(el => el === '*'? el = arr2.shift() : el).join('')
+
+// }
+
+// console.log(uncensor(infected, discovered))
+
+
+
+//***************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
