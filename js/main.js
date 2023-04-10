@@ -2418,8 +2418,22 @@
 // //*********************************************** */
 
 
+// let stringOne = "apple"
+// let stringTwo = "carts"
+// function mutateMyStrings(stringOne, stringTwo){
+//     const finalArr = [stringOne]
+//     const arr1 = [...stringOne]
+//     const arr2 = [...stringTwo]  
+    
+//     for(i=0; i<stringOne.length; i++){
+//         arr1[i] = arr2[i]
+//         finalArr.push(arr1.join(''))
+        
+//     }
+//     return finalArr.join('\n')
+// }
 
-
+// console.log(mutateMyStrings(stringOne, stringTwo))
 
 
 
