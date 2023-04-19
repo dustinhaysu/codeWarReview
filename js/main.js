@@ -2435,6 +2435,23 @@
 
 // console.log(mutateMyStrings(stringOne, stringTwo))
 
+// let stringOne = "apple"
+// let stringTwo = "carts"
+// function mutateMyStrings(stringOne, stringTwo){
+//     const arr1 = [...stringOne]
+//     const arr2 = [...stringTwo]
+//     const answerString = [arr1.join('')]
+
+//     for(let i = 0; i<arr1.length; i++){
+//         arr1[i] = arr2[i]
+//         answerString.push(arr1.join(''))
+//     }
+//     return answerString.join('\n')
+
+// }
+
+// console.log(mutateMyStrings(stringOne, stringTwo))
+//************************************ */
 
 
 
