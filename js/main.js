@@ -2473,6 +2473,32 @@
 
 //******************************************8 */
 
+// string2 = 'It was great and I\'ve never been on live television before but sometimes I don\'t watch this.'
+// string = 'but apparently and apparently'
+// function apparently(string) {
+//     arr = string.split(' ')
+//     answer = []
+
+//     for(i=0; i<arr.length; i++){
+//         if(arr[i] === 'and' || arr[i] === 'but'){
+//             if(arr[i+1] === 'apparently'){
+//                 answer.push(arr[i])
+//             } else {
+//                 arr[i] = 'apparently'
+//                 answer.push(arr[i])
+//             } 
+//         } else {
+//             answer.push(arr[i])
+//         }
+//     }
+//     return answer.join(' ')
+    
+// }
+// console.log(apparently(string))
+
+
+//************************************************** */
+
 
 
 
