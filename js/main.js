@@ -2500,9 +2500,24 @@
 //************************************************** */
 
 
+// string2 = 'It was great and I\'ve never been on live television before but sometimes I don\'t watch this.'
+// string = 'but apparently and apparently'
+// function apparently(string) {
+//     const array = string.split(' ')
 
+//     array.map((el, index) => {
+//         if(el === 'and' || el === 'but'){
+//             array[index +1 ] === 'apparently' ? el : array.splice(index + 1, 0, 'apparently')
+//             }       
+//     })
 
+//     return array.join(' ')
 
+// }
+
+// console.log(apparently(string))
+
+//********************************************** */
 
 
 
