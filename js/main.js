@@ -2521,6 +2521,22 @@
 
 
 
+ let string = 'It was great and I\'ve never been on live television before but sometimes I don\'t watch this.'
+let string2 = 'but apparently and apparently'
+
+function apparently(string) {
+    const arr = string.split(' ')
+
+    for(let i = 0; i<arr.length; i++){
+     if (arr[i] === 'and' || arr[i]==='but'){
+        arr[i+1] === 'apparently'? arr[i]: arr.splice((i+1), 0, apparently)
+        }
+     }   
+    
+    return arr.join(' ')
+}
+
+console.log(apparently(string))
 
 
 
