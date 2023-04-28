@@ -2541,6 +2541,23 @@
 
 //*********************************************************************** */
 
+// function mutateMyStrings(stringOne, stringTwo){
+//     let arr1 = [stringOne]
+//     let arr2= [stringTwo]
+//     let answerString = [stringOne]
+    
+//     for(let i = 0; i < arr1.length; i++){
+//         if(arr1[i] !== arr2[i]) {
+//             arr1[i] = arr2[i]
+//             answerString.push(arr1.join(''))
+//         }
+//     }
+//     return answerString.join('\n')
+//     }
+//     console.log(mutateMyStrings('farts', 'carts'))
+
+
+//*********************************************** */
 
 
 
