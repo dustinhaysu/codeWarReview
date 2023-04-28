@@ -2559,6 +2559,21 @@
 
 //*********************************************** */
 
+let str1 = "We\'re going to party like it\'s 1999"
+let str2 = "It\'s my party and I\'ll cry if I want to"
+
+ function SubstringTest(str1, str2){
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
+        length = Math.max(str1.length, str2.length)
+        for(let i = 0 ; i <length-1; i++){
+           if(str1.indexOf(str2.substring(i, i+2))>-1)
+             return true;
+        }
+        return false;
+      }
+      console.log(SubstringTest(str1, str2))
+      console.log(str1[0])
 
 
 
