@@ -2578,9 +2578,26 @@
 
 //************************************************ */
 
+// let str1 = "DUke"
+// let str2 = "puke"
+// function substringTest(str1, str2){
+//     str1.toLowerCase()
+//     str2.toLowerCase()
+//     let length = Math.max(str1.length, str2.length)
+
+//     for(let i = 0; i<length - 1; i++){
+//         if(str1.indexOf(str2.substring(i,i+2))>-1){
+//             return true
+//         }
+//     }
+//     return false
+// }
 
 
+// console.log(substringTest(str1, str2))
 
+
+//******************************************* */
 
 
 
