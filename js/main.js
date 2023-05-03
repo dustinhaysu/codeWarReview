@@ -2599,5 +2599,26 @@
 
 //******************************************* */
 
+// stringOne = 'bubble gum';
+// stringTwo = 'turtle ham';
+
+// function mutateMyStrings (stringOne, stringTwo){
+//     const arr1 = [...stringOne]
+//     const arr2 = [...stringTwo]
+//     const answerString = [stringOne]
+
+//     for(let i = 0; i<arr1.length; i++){
+//         if(arr1[i] !== arr2[i]){
+//             arr1[i] = arr2[i]
+//             answerString.push(arr1.join(''))
+//         }
+        
+//     }
+//     return answerString.join('\n')
+// }
 
 
+// console.log(mutateMyStrings (stringOne, stringTwo))
+
+
+//******************************************************************* */
