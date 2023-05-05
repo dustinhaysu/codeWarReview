@@ -2641,3 +2641,37 @@
 
 //******************************************************************** */
 
+// const arr = ['CAR', 7, false, 'FUN', 'BUNNY']
+// function arrayLowerCase(arr){
+//     return arr.map(el => typeof el === 'string'? el.toLowerCase(): el)
+// } 
+
+// console.log(arrayLowerCase(arr))
+
+//************************************************************************* */
+
+// function mergeStrings(first, second){ 
+//     let count = 0;
+
+//     for(let i = 0 ; i<first.length; i++){
+//         if(first[i]== second[count]){
+//             count++;
+            
+//         }else {
+//             count = 0;
+//             if(first[i] == second[count]){
+//                 count++;
+//             }
+//         }
+//     }
+//     return first + second.slice(count);
+// }
+
+
+
+// let first = 'abaab'
+// let second = 'aabab'
+
+// console.log(mergeStrings(first, second))
+
+//*************************************** */
