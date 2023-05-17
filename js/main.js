@@ -2741,3 +2741,18 @@
 
 //***************************************************************************** */
 
+// let arr = ['CAR', 7, false, 'FUN', 'BUNNY']
+// function arrayLowerCase(arr) {
+//    return arr.map(el => typeof el === "string" ?  el.toLowerCase() : el);
+    
+// }
+
+// console.log(arrayLowerCase(arr))
+
+// function arrayLowerCase(arr) {
+//     return arr.map(element => typeof element === 'string' ? element.toLowerCase() : element);
+//  }
+
+//  console.log(arrayLowerCase(arr))
+
+//************************************** */
