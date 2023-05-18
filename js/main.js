@@ -2756,3 +2756,25 @@
 //  console.log(arrayLowerCase(arr))
 
 //************************************** */
+
+
+// let arr = ['CAR', 7, false, 'FUN', 'BUNNY']
+// function arrayLowerCase(arr) {
+//     return arr.map(el => typeof el === 'string' ? el.toLowerCase() : el)
+// }
+
+// console.log(arrayLowerCase(arr))
+
+//************************************************* */
+
+
+// function helloWorld(){
+//     let x = String(/hello world/)
+//     return x.substring(1,x.length-1)
+    
+// }
+
+// console.log(helloWorld())
+
+//************************************************** */
+
