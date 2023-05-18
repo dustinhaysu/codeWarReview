@@ -2778,3 +2778,31 @@
 
 //************************************************** */
 
+
+// let first ="abaab" 
+// let second = "aabab"
+
+
+// function mergeStrings(first, second){
+//     const arr1 = [...first]
+//     const arr2 = [...second]
+//     let count = 0
+
+//     for (let i = 0; i<arr1.length; i++){
+//         if(arr1[i] === arr2[i]){
+//             count++
+//         } else{
+//             count = 0
+//             if(arr1[i]===arr2[i]){
+//                 count++
+//             }
+//         }
+//     } return arr1.concat(arr2.slice(count)).join('')
+
+// }
+// console.log(mergeStrings(first, second))
+// abaabbab
+// abaabab
+
+//********************************************** */
+
