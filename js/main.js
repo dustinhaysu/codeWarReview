@@ -2806,3 +2806,29 @@
 
 //********************************************** */
 
+// let data = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+//     }
+
+
+
+// function keysAndValues(data){
+//     for (const property in data){
+//         console.log(`${property}: ${data[property]}`)
+//     }
+
+
+// }
+
+
+
+//keysAndValues(data)
+
+// function keysAndValues(data){
+//     return [Object.keys(data), Object.values(data)];
+//     }
+//     console.log(keysAndValues(data))
+
+//*************************************************************8 */
