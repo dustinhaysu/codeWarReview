@@ -2829,6 +2829,17 @@
 // function keysAndValues(data){
 //     return [Object.keys(data), Object.values(data)];
 //     }
-//     console.log(keysAndValues(data))
+//    console.log(keysAndValues(data))
 
 //*************************************************************8 */
+
+// let names = ['Car', 'Bunny', 'for', 'Letter']
+// sortMe = ( names )=>{
+//     return names.sort()
+// }
+
+// console.log(sortMe(names))
+
+
+//********************************************** */
+
