@@ -2843,3 +2843,24 @@
 
 //********************************************** */
 
+// let a = ['a', 'b', 'c', 'd']
+//  let b = [1, 2, 3, 4, 5]
+//  function mergeArrays(a, b) {
+//     const finalArr = []
+//     let loopNum = Math.max(a.length, b.length)
+//     for(let i = 0; i<loopNum; i++){
+//         if(a[i]){
+//             finalArr.push(a[i])
+//         }
+//         if(b[i]){
+//             finalArr.push(b[i])
+//         }
+//     }
+//     return finalArr
+//  }
+
+//  console.log(mergeArrays(a, b))
+
+//********************************************************************** */
+
+
