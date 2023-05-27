@@ -2874,3 +2874,15 @@
 
 //**************************************************** */
 
+let arr = [91,75,86,14,82]
+function solve(arr){
+    var minMax = [];
+    arr.sort((a,b)=>b-a);
+    for(var i = 0, j = arr.length-1; i <= j; i++,j--){
+      if(i != j) minMax.push(arr[j]), minMax.push(arr[i]);
+      else minMax.push(arr[i]);
+    }
+    return minMax;
+  }
+
+  console.log(solve(arr))
