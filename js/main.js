@@ -2902,3 +2902,17 @@
 //   console.log(solve(arr))
 
 //   ****************************************************************
+
+// let [arr1, arr2] = [[6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]]
+
+// function findMissing(arr1, arr2) {
+//     const reducer = (accumulator, currentValue) => accumulator + currentValue
+//     return arr1.reduce(reducer, 0) - arr2.reduce(reducer, 0); 
+// }
+
+
+// console.log(findMissing(arr1, arr2))
+
+
+//*************************************************************************************** */
+
