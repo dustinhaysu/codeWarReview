@@ -3006,3 +3006,36 @@
 // }
 
 // console.log(solve(arr))
+//************************************************************* */
+
+// let arr = [91,75,86,14,82]
+// function solve(arr){
+//     arr.sort((a,b)=> a - b)
+//     const finalArr = []
+//     for(let i=0, j = arr.length-1; i<arr.length, j>0; i++, j--){  
+//         if(i>j){
+//             return
+//         }  
+//         if(i===j){
+//            finalArr.push(arr[i])
+//         } else {
+//             finalArr.push(arr[i], arr[j])
+//         }
+
+       
+
+//     }
+
+//     console.log(finalArr)
+// }
+
+// console.log(solve(arr))
+
+//*********************************************************** */
+
+
+
+
+
+
+
