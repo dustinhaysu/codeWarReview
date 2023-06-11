@@ -3033,26 +3033,36 @@
 
 //*********************************************************** */
 
-let arr = [91,100, 1, 1000,75,86,14,82]
-function solve(arr){
-   arr.sort((a,b)=> b-a)
-   sortArr=[]
-   for(let i=0, j=arr.length-1; i<arr.length, j>-1; i++, j--){
-    if(i===j){
-        sortArr.push(arr[i])
+// let arr = [91,100, 1, 1000,75,86,14,82]
+// function solve(arr){
+//    arr.sort((a,b)=> b-a)
+//    sortArr=[]
+//    for(let i=0, j=arr.length-1; i<arr.length, j>-1; i++, j--){
+//     if(i===j){
+//         sortArr.push(arr[i])
         
-    }
-    if(i<j){
-        sortArr.push(arr[i])
-        sortArr.push(arr[j])
-    }
-   }
-   return sortArr
-}
+//     }
+//     if(i<j){
+//         sortArr.push(arr[i])
+//         sortArr.push(arr[j])
+//     }
+//    }
+//    return sortArr
+// }
 
-console.log(solve(arr))
+// console.log(solve(arr))
+//******************************************************************* */
+// let arr = [9, 7, 6, 9]
+// let n = 1
+// function removeNthElement(arr, n) {
+// // Fix it
+// var arrCopy = arr;
+// arrCopy.slice(n, 1); // removes the nth element
+// return arrCopy;
+// }
 
-
+// console.log(removeNthElement(arr, n))
+//*********************************************************** */
 
 
 
