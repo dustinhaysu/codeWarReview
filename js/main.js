@@ -3084,3 +3084,23 @@
 
 // console.log(solve(arr))
 //******************************************************************* */
+// let arr = [91,100, 1, 1000,75,86,14,82]
+// function solve(arr){
+//    arr.sort((a,b)=> b-a)
+//    sortArr=[]
+//    for(let i=0, j=arr.length-1; i<arr.length, j>-1; i++, j--){
+//     if(i===j){
+//         sortArr.push(arr[i])
+        
+//     }
+//     if(i<j){
+//         sortArr.push(arr[i])
+//         sortArr.push(arr[j])
+//     }
+//    }
+//    return sortArr
+// }
+
+// console.log(solve(arr))
+
+//**************************************************** */
