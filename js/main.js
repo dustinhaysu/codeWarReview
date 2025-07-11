@@ -422,8 +422,8 @@
 // if str2 = str1 ++count
 // else count = 0 if(str2 = str1 ++count)
 
-// let first = "abaab" 
-// let second = "aabab"
+// let first = "abaab" //
+// let second = "aabab"//
 
 // function mergeStrings(first, second){
 //     let count = 0
@@ -3108,10 +3108,20 @@
 let arr =[9, 7, 6, 9];
 let n = 1;
 
-function removeNthElement(arr, n){
-    var arryCopy = arr.slice(); //now that's a shallow copy
-    arrCopy.splice(n,1);
-    return arrCopy;
+/* function removeNthElement(arr, n) {
+// Fix it
+var arrCopy = arr;
+arrCopy.splice(n, 1); // removes the nth element
+return arrCopy;
 }
 
-console.log(removeNthElement());
+console.log(removeNthElement(arr, n)); */
+
+// function removeNthElement(arr,n){
+//     let arrCopy = arr.slice();
+//     arrCopy.splice(n,1);
+//     return arrCopy;
+// }
+// console.log(removeNthElement (arr, n));
+
+// // to remove errors a shallow copy of the array should be made first. 
