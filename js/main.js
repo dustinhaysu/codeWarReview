@@ -3104,3 +3104,14 @@
 // console.log(solve(arr))
 
 //**************************************************** */
+
+let arr =[9, 7, 6, 9];
+let n = 1;
+
+function removeNthElement(arr, n){
+    var arryCopy = arr.slice(); //now that's a shallow copy
+    arrCopy.splice(n,1);
+    return arrCopy;
+}
+
+console.log(removeNthElement());
