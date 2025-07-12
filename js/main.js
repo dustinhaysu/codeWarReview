@@ -3134,4 +3134,52 @@ console.log(removeNthElement(arr, n)); */
 
 // console.log(sortArray(a1, a2));
 
-// inside function sortArray, map() iterates through array a1 using the variable 'v'. the method find() iterates through the array 'a2' using the variable w for each element inside array a1. v[0]===w[0] means the function will run until both letters match and then return the value of w, which in turn creates a new array. 
+// inside function sortArray, map() iterates through array a1 using the variable 'v'. the method find() iterates through the array 'a2' using the variable w for each element inside array a1. v[0]===w[0] means the function will run until both letters match and then return the value of w, which in turn creates a new array.
+
+// let arr = [9, 7, 6, 9];
+// let n = 1;
+// function removeNthElement(arr, n) {
+// // Fix it
+// let arrCopy = arr.slice();
+// arrCopy.splice(n, 1); // removes the nth element
+// return arrCopy;
+// };
+
+// console.log(removeNthElement(arr, n));
+// //arr.slice() crates a shallow copy of the array before manipulating the array.  
+
+const arr1 = ["tartar", "blanket", "cinnamon"]
+const arr2 = ["cinnamon", "blanket", "domino"]
+
+function hotSingles(arr1, arr2) {
+  const joinedArray = arr1.concat(arr2) //join and maintain the order: arr1 elements first, then arr2 elements.
+  const result = []; 
+  const allElements = {}; // Use an object as a hash map to track element counts
+
+  // Process joinedArray
+  for (const item of joinedArray) {
+    if (allElements[item]) {
+      allElements[item]++;
+    } else {
+      allElements[item] = 1;
+    }
+  }
+
+  // Filter for elements appearing only once (i.e., with a count of 1)
+  for (const item of joinedArray) {
+    if (allElements[item] === 1) {
+      result.push(item);
+    }
+  }
+
+  return result;
+}
+
+console.log(hotSingles(arr1,arr2))
+
+/*Here is how it works:
+
+*Array.prototype.concat() joins arr1 and arr2 in order
+*Hash Map for Counting: A JavaScript object (allElements) stores and counts the occurrences of each element across both input arrays. The element is the key, and its count is the value.
+*The function iterates through joinedArray counting the occurences of each element in order
+The function then iterates through joinedArray a second time and pushes to result all elements with a value of 1 inside the object (allElements)*/ 
