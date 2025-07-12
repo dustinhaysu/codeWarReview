@@ -3148,34 +3148,34 @@ console.log(removeNthElement(arr, n)); */
 // console.log(removeNthElement(arr, n));
 // //arr.slice() crates a shallow copy of the array before manipulating the array.  
 
-const arr1 = ["tartar", "blanket", "cinnamon"]
-const arr2 = ["cinnamon", "blanket", "domino"]
+// const arr1 = ["tartar", "blanket", "cinnamon"]
+// const arr2 = ["cinnamon", "blanket", "domino"]
 
-function hotSingles(arr1, arr2) {
-  const joinedArray = arr1.concat(arr2) //join and maintain the order: arr1 elements first, then arr2 elements.
-  const result = []; 
-  const allElements = {}; // Use an object as a hash map to track element counts
+// function hotSingles(arr1, arr2) {
+//   const joinedArray = arr1.concat(arr2) //join and maintain the order: arr1 elements first, then arr2 elements.
+//   const result = []; 
+//   const allElements = {}; // Use an object as a hash map to track element counts
 
-  // Process joinedArray
-  for (const item of joinedArray) {
-    if (allElements[item]) {
-      allElements[item]++;
-    } else {
-      allElements[item] = 1;
-    }
-  }
+//   // Process joinedArray
+//   for (const item of joinedArray) {
+//     if (allElements[item]) {
+//       allElements[item]++;
+//     } else {
+//       allElements[item] = 1;
+//     }
+//   }
 
-  // Filter for elements appearing only once (i.e., with a count of 1)
-  for (const item of joinedArray) {
-    if (allElements[item] === 1) {
-      result.push(item);
-    }
-  }
+//   // Filter for elements appearing only once (i.e., with a count of 1)
+//   for (const item of joinedArray) {
+//     if (allElements[item] === 1) {
+//       result.push(item);
+//     }
+//   }
 
-  return result;
-}
+//   return result;
+// }
 
-console.log(hotSingles(arr1,arr2))
+// console.log(hotSingles(arr1,arr2))
 
 /*Here is how it works:
 
