@@ -3105,8 +3105,8 @@
 
 //**************************************************** */
 
-let arr =[9, 7, 6, 9];
-let n = 1;
+// let arr =[9, 7, 6, 9];
+// let n = 1;
 
 /* function removeNthElement(arr, n) {
 // Fix it
@@ -3125,3 +3125,13 @@ console.log(removeNthElement(arr, n)); */
 // console.log(removeNthElement (arr, n));
 
 // // to remove errors a shallow copy of the array should be made first. 
+// var a1 = ['jellyfish', 'koi', 'caribou', 'owl', 'dolphin'];
+// var a2 = ['ostrich', 'jaguar', 'deer', 'camel', 'kangaroo'];
+
+// function sortArray (a1, a2) {
+//     return a1.map( v => a2.find( w => v[0]===w[0]))
+// };
+
+// console.log(sortArray(a1, a2));
+
+// inside function sortArray, map() iterates through array a1 using the variable 'v'. the method find() iterates through the array 'a2' using the variable w for each element inside array a1. v[0]===w[0] means the function will run until both letters match and then return the value of w, which in turn creates a new array. 
